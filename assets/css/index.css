@@ -1,0 +1,35 @@
+@import url(./common.css);
+
+.side-navbar{
+    width: 250px;
+    height: 100vh;
+    border: none;
+    border-right: 1px solid rgb(41, 41, 41);
+}
+.side-navbar-brand-wrap{
+    border-bottom: 1px solid rgb(41, 41, 41);
+    padding: 2rem;
+}
+.side-navbar-brand-wrap h5,p{
+    margin: 0;
+    padding: 0;
+}
+.side-navbar-brand-wrap h5{
+    font-size: 20px;
+    color: var(--primary-text-color);
+}
+.side-navbar-brand-wrap p{
+    color: var(--secomdary-text-color);
+}
+.side-navbar-item{
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid rgb(41, 41, 41);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: var(--secomdary-text-color);
+}
+.side-navbar-item:hover{
+    background-color: rgb(25, 25, 25);
+    color: var(--primary-text-color);
+}

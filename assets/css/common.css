@@ -1,0 +1,10 @@
+
+:root{
+    --background-color:rgb(18, 18, 18);
+    --primary-text-color:rgb(255, 255, 255);
+    --secomdary-text-color:#636363;
+
+}
+body{
+    background-color: var(--background-color);
+}
