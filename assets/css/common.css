@@ -4,10 +4,8 @@
 :root {
     --background-color: rgb(18, 18, 18);
     --primary-text-color: rgb(255, 255, 255);
-    /* --secondary-text-color: rgb(99, 99, 99); */
-    --secomdary-text-color:rgb(128, 128, 128);
+    --secomdary-text-color: rgb(128, 128, 128);
     --border-color: rgb(41, 41, 41);
-    --border-width: 1px;
     --hover-yellow: rgba(252, 163, 17, 1);
     --hover-primary: rgb(25, 25, 25);
     --font-size-12: 12px;
@@ -32,87 +30,79 @@ body {
     font-size: 16px;
 }
 
-a {
-    text-decoration: none;
-}
 
 /* navbar css start */
 .side-navbar {
+    z-index: 999;
     width: 240px;
     height: 100vh;
     border: none;
-    border-right: 1px solid rgb(41, 41, 41);
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 999;
+    border-right: 1px solid var(--border-color);
     background-color: var(--background-color);
 }
 
 
-.side-navbar-brand-wrap {
-    border-bottom: 1px solid rgb(41, 41, 41);
+.side-navbar-name-jobtitle-wrap {
     padding: 32px;
     display: flex;
     flex-direction: column;
     gap: 4px;
-    font-weight: 400;
+    border-bottom: 1px solid var(--border-color);
 }
 
-.side-navbar-brand-wrap h5,
+
+.side-navbar-name-jobtitle-wrap h5,
 p {
     margin: 0;
     padding: 0;
 }
 
-.side-navbar-brand-wrap h5 {
-    font-size: 20px;
+.side-navbar-name {
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-400);
     color: var(--primary-text-color);
     transition: color ease-in;
     cursor: pointer;
 }
 
-.side-navbar-brand-wrap h5:hover {
-    color: rgba(252, 163, 17, 1);
+.side-navbar-name:hover {
+    color: var(--hover-yellow);
 }
 
-.side-navbar-brand-wrap p {
-    color: var(--secomdary-text-color);
+.side-navbar-jobtitle {
     cursor: pointer;
-    font-size: 16px;
-    font-weight: 300;
+    color: var(--secomdary-text-color);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-300);
+}
+
+.navbar-btn {
+    display: none;
 }
 
 .side-navbar-item {
     padding: 20px 32px;
-    border-bottom: 1px solid rgb(41, 41, 41);
+    border-bottom: 1px solid var(--border-color);
     display: flex;
     align-items: center;
     gap: 15px;
-    /* color: #636363; */
-    color: rgb(128, 128, 128);
-    font-size: 16px;
-    font-weight: 500;
-    transition: background-color .3s ease-in-out;
-    transition: color .3s ease-in-out;
+    color: var(--secomdary-text-color);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-500);
+    transition: all .4s ease-in-out;
 }
 
 .side-navbar-item:hover {
-    background-color: rgb(25, 25, 25);
-    /* background-color: rgb(128, 128, 128); */
-    color: #fff;
+    background-color: var(--hover-primary);
+    color: var(--primary-text-color);
 }
 
-.nav-btn {
-    display: none;
-}
-
-.nav-icon {
+.navbar-btn-icon-rotate-45 {
     transform: rotate(45deg);
     transition: transform .3s ease-in-out;
 }
 
-.nav-icon-return {
+.navbar-btn-icon-rotate-0 {
     transform: rotate(0);
     transition: transform .3s ease-in-out;
 }
@@ -123,16 +113,16 @@ p {
         width: 100%;
         height: 60px;
         border: none;
-        border-bottom: 1px solid rgb(41, 41, 41);
+        border-bottom: 1px solid var(--border-color);
         background-color: var(--background-color);
 
     }
 
-    .side-navbar-brand-wrap p {
+    .side-navbar-jobtitle {
         display: none;
     }
 
-    .side-navbar-brand-wrap {
+    .side-navbar-name-jobtitle-wrap {
         border: none;
         padding: 0 2rem;
         display: flex;
@@ -140,21 +130,21 @@ p {
         align-items: center;
         justify-content: space-between;
         min-height: 60px;
-        z-index: 9;
+        z-index: 998;
         background-color: var(--background-color);
-        border-bottom: 1px solid rgb(41, 41, 41);
+        border-bottom: 1px solid var(--border-color);
     }
 
     .side-navbar-items {
         transform: translateY(-170%);
         transition: transform .4s ease-in-out;
-        z-index: 8;
+        z-index: 997;
 
     }
 
-    .nav-btn {
+    .navbar-btn {
         display: block;
-        color: white;
+        color: var(--primary-text-color);
 
     }
 
