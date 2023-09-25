@@ -1,1 +1,61 @@
 @import url(./common.css);
+
+.main-content {
+    margin-left: 240px;
+}
+
+.about-section-sub {
+    width: 1400px;
+    gap: 40px;
+}
+
+.open-to-work-btn {
+    background-color: rgba(18, 253, 127, 0.04);
+    border-radius: 4px;
+    color: rgb(3, 226, 107);
+    padding: 8px 16px;
+    transition: all .3s ease-in;
+    height: min-content;
+}
+
+.open-to-work-btn:hover {
+    background-color: rgba(18, 253, 128, 0.068);
+    color: rgb(3, 226, 107);
+}
+
+.social-item {
+    width: 48px;
+    height: 48px;
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secomdary-text-color);
+    border-radius: 4px;
+    transition: all .4s ease-in-out;
+}
+
+.social-item:hover {
+    background-color: var(--hover-primary);
+    color: var(--primary-text-color);
+}
+
+.about-section-sub-heading {
+    font-size: var(--font-size-40);
+    color: var(--primary-text-color);
+    font-weight: var(--font-wight-400);
+}
+
+.about-section-sub-description {
+    color: var(--secomdary-text-color);
+    font-weight: var(--font-wight-300);
+    font-size: var(--font-size-18);
+
+}
+
+@media screen and (max-width:1200px) {
+    .main-content {
+        margin-left: 0;
+        margin-top: 60px;
+    }
+}
