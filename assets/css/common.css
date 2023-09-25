@@ -90,6 +90,7 @@ p {
     font-size: var(--font-size-16);
     font-weight: var(--font-weight-500);
     transition: all .4s ease-in-out;
+    background-color: var(--background-color);
 }
 
 .side-navbar-item:hover {
