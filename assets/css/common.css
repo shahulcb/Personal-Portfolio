@@ -190,6 +190,21 @@ p {
     font-weight: var(--font-weight-400);
 }
 
+.work-section-title,
+.blog-section-title,
+.store-section-title {
+    font-size: var(--font-size-40);
+}
+
+@media screen and (max-width:1200px) {
+
+    .work-section-title,
+    .blog-section-title,
+    .store-section-title {
+        font-size: 32px;
+    }
+}
+
 /* section code end here */
 
 
