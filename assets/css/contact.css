@@ -1,0 +1,62 @@
+@import url(./common.css);
+
+.contact-section-container {
+    max-width: 700px;
+}
+
+.contact-section-title-wrap {
+    margin-bottom: 40px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.contact-section-title-wrap>p {
+    color: var(--secomdary-text-color);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-300);
+}
+
+.contact-section-title-wrap a {
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+.contact-section-title-wrap a:hover {
+    color: var(--hover-yellow);
+}
+
+input.form-control {
+    height: 50px;
+}
+
+.form-control {
+    background-color: var(--hover-primary);
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary-text-color) !important;
+}
+
+.form-control::placeholder {
+    color: var(--secomdary-text-color);
+}
+
+.form-control:focus {
+    background-color: var(--hover-primary);
+    box-shadow: none;
+
+}
+
+.send-msg {
+    width: 100%;
+    height: 50px;
+    background-color: var(--hover-yellow);
+    font-size: var(--font-size-16);
+    font-weight: 600;
+    transition: all .4s ease-in-out;
+}
+
+.send-msg:hover {
+    background-color: rgba(252, 162, 17, 0.869);
+}

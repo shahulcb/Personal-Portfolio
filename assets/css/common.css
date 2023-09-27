@@ -193,7 +193,8 @@ p {
 .work-section-title,
 .blog-section-title,
 .store-section-title,
-.about-section-title {
+.about-section-title,
+.contact-section-title {
     font-size: var(--font-size-40);
 }
 
@@ -202,7 +203,8 @@ p {
     .work-section-title,
     .blog-section-title,
     .store-section-title,
-    .about-section-title {
+    .about-section-title,
+    .contact-section-title {
         font-size: 32px;
     }
 }
