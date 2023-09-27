@@ -1,8 +1,6 @@
 @import url(./common.css);
 
-.main-content {
-    margin-left: 240px;
-}
+
 
 .about-section-wrap {
     border-bottom: 1px solid var(--border-color);
@@ -61,103 +59,38 @@
 
 }
 
-.featured-work-section-heading {
-    font-size: var(--font-size-28);
-    color: var(--primary-text-color);
-    font-weight: var(--font-weight-400);
-}
-
-.card {
-    background-color: transparent;
-    color: var(--primary-text-color);
+.tool-container {
+    padding: 13px;
+    border: 1px solid var(--border-color);
     border-radius: 8px;
     cursor: pointer;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    transition: all .4s ease-in-out;
 }
 
-.image-wrap {
-    overflow: hidden;
-    border-radius: inherit;
+.tool-container:hover {
+    background-color: var(--hover-primary);
 }
 
-.card:hover .card-img-top {
-    transform: scale(1.1);
+.tool-img img {
+    width: 36px;
+    height: 36px;
+    border-radius: 4px;
 }
-
-.card:hover .card-body .card-text {
-    color: var(--hover-yellow);
-}
-
-.card-img-top {
-    border-radius: inherit;
-    height: 300px;
-    object-fit: cover;
-    transition: all .3s ease-in-out;
-    width: 100%;
-}
-
-.card-body {
-    margin-top: 15px;
-    padding: 0;
-}
-
-.card-title {
-    font-size: var(--font-size-12);
-    color: var(--secomdary-text-color);
-    font-weight: var(--font-weight-500);
-}
-
-.card-text {
+.tool-title{
     font-size: var(--font-size-20);
     font-weight: var(--font-weight-400);
-    transition: all .3s ease-in-out;
-}
-
-.bottom-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
     color: var(--primary-text-color);
-    border: 1px solid var(--border-color);
-    text-decoration: none;
-    max-width: 100%;
-    height: 50px;
-    text-align: center;
-    margin-top: 50px;
-    border-radius: 4px;
-    overflow: hidden;
-    transition: all .4s ease-in-out;
-
 }
-
-.bottom-btn-text {
-    position: relative;
-    transition: all .4s ease-in-out;
-}
-
-.second-text {
-    position: absolute;
-    top: 50px;
-    text-wrap: nowrap;
-    left: 0;
-}
-
-.bottom-btn:hover .bottom-btn-text {
-    transform: translateY(-50px);
-}
-
-
-.bottom-btn:hover {
-    background-color: var(--hover-primary);
-    color: var(--primary-text-color);
+.tool-text{
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-300);
+    color: var(--secomdary-text-color);
 }
 
 @media screen and (max-width:1200px) {
-    .main-content {
-        margin-left: 0;
-        margin-top: 60px;
-    }
-
     .about-section-heading {
         font-size: 32px;
     }
