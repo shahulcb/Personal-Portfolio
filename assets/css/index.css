@@ -2,11 +2,11 @@
 
 
 
-.about-section-wrap {
+.home-about-section-wrap {
     border-bottom: 1px solid var(--border-color);
 }
 
-.about-section-container {
+.home-about-section-container {
     width: 1400px;
     gap: 40px;
 }
@@ -42,17 +42,17 @@
     color: var(--primary-text-color);
 }
 
-.about-section-content {
+.home-about-section-content {
     max-width: 800px;
 }
 
-.about-section-heading {
+.home-about-section-heading {
     font-size: var(--font-size-40);
     color: var(--primary-text-color);
     font-weight: var(--font-weight-400);
 }
 
-.about-section-description {
+.home-about-section-description {
     color: var(--secomdary-text-color);
     font-weight: var(--font-weight-300);
     font-size: var(--font-size-18);
@@ -79,19 +79,21 @@
     height: 36px;
     border-radius: 4px;
 }
-.tool-title{
+
+.tool-title {
     font-size: var(--font-size-20);
     font-weight: var(--font-weight-400);
     color: var(--primary-text-color);
 }
-.tool-text{
+
+.tool-text {
     font-size: var(--font-size-16);
     font-weight: var(--font-weight-300);
     color: var(--secomdary-text-color);
 }
 
 @media screen and (max-width:1200px) {
-    .about-section-heading {
+    .home-about-section-heading {
         font-size: 32px;
     }
 }

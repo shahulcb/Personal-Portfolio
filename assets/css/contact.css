@@ -1,9 +1,5 @@
 @import url(./common.css);
 
-.contact-section-container {
-    max-width: 700px;
-}
-
 .contact-section-title-wrap {
     margin-bottom: 40px;
     display: flex;

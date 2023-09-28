@@ -198,6 +198,11 @@ p {
     font-size: var(--font-size-40);
 }
 
+.about-section-container,
+.contact-section-container {
+    max-width: 700px;
+}
+
 @media screen and (max-width:1200px) {
 
     .work-section-title,
