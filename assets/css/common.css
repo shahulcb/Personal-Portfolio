@@ -200,7 +200,10 @@ p {
 
 .about-section-container,
 .contact-section-container,
-.single-blog-section-container {
+.single-blog-section-container
+
+/* .single-work-section-container */
+    {
     max-width: 700px;
 }
 
@@ -217,9 +220,22 @@ p {
 
 /* section code end here */
 
+/* back button start */
+.back-button {
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-300);
+    color: var(--secomdary-text-color);
+    text-decoration: none;
+    gap: 12px;
+    transition: all .1s ease-in;
+}
 
+.back-button:hover {
+    color: var(--hover-yellow);
+    gap: 15px;
+}
 
-
+/* back button end */
 
 /* card code start here */
 .card {
