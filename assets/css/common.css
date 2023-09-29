@@ -199,7 +199,8 @@ p {
 }
 
 .about-section-container,
-.contact-section-container {
+.contact-section-container,
+.single-blog-section-container {
     max-width: 700px;
 }
 

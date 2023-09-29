@@ -1,0 +1,51 @@
+@import url(common.css);
+
+.single-blog-section-body {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.back-button {
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-300);
+    color: var(--secomdary-text-color);
+    text-decoration: none;
+    gap: 12px;
+    transition: all .1s ease-in;
+}
+
+.back-button:hover {
+    color: var(--hover-yellow);
+    gap: 15px;
+}
+
+.blog-tag{
+    font-size: var(--font-size-12);
+    font-weight: var(--font-weight-500);
+    color: var(--hover-yellow);
+}
+
+.blog-title{
+    font-size: var(--font-size-40);
+    font-weight: var(--font-weight-400);
+    color: var(--primary-text-color);
+}
+
+.blog-img{
+    border-radius: 8px;
+    height: 480px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.blog-text{
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-300);
+    color: var(--secomdary-text-color);
+}
+.blog-sub-title{
+    font-size: var(--font-size-28);
+    font-weight: var(--font-weight-400);
+    color: var(--primary-text-color);
+}
