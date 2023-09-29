@@ -1,0 +1,46 @@
+@import url(common.css);
+
+.buy-item-section-body {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.buy-item-img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    height: 100%;
+}
+
+.buy-item-title {
+    font-size: var(--font-size-40);
+    color: var(--primary-text-color);
+    font-weight: var(--font-weight-400);
+}
+
+.buy-item-text {
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-300);
+    color: var(--secomdary-text-color);
+}
+
+.buy-btn {
+    background-color: var(--hover-yellow);
+    color: #000;
+}
+
+.buy-btn:hover {
+    background-color: var(--hover-yellow);
+    color: #000;
+}
+
+.buy-item-content {
+    width: 80%;
+}
+
+@media screen and (max-width:990px) {
+    .buy-item-content {
+        width: 100%;
+    }
+}
