@@ -1,0 +1,70 @@
+@import url(./common.css);
+
+.login-section-container {
+    max-width: 500px;
+}
+
+.error {
+    display: none;
+}
+
+.section-wrap {
+    border: none;
+}
+
+.login-section-title-wrap {
+    margin-bottom: 40px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.login-section-title-wrap>p {
+    color: var(--secomdary-text-color);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-300);
+}
+
+.login-section-title-wrap a {
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+.login-section-title-wrap a:hover {
+    color: var(--hover-yellow);
+}
+
+input.form-control {
+    height: 50px;
+}
+
+.form-control {
+    background-color: var(--hover-primary);
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary-text-color) !important;
+}
+
+.form-control::placeholder {
+    color: var(--secomdary-text-color);
+}
+
+.form-control:focus {
+    background-color: var(--hover-primary);
+    box-shadow: none;
+
+}
+
+.send-msg {
+    width: 100%;
+    height: 50px;
+    background-color: var(--hover-yellow);
+    font-size: var(--font-size-16);
+    font-weight: 600;
+    transition: all .4s ease-in-out;
+}
+
+.send-msg:hover {
+    background-color: rgba(252, 162, 17, 0.869);
+}

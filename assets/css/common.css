@@ -194,7 +194,8 @@ p {
 .blog-section-title,
 .store-section-title,
 .about-section-title,
-.contact-section-title {
+.contact-section-title,
+.login-section-title {
     font-size: var(--font-size-40);
 }
 
@@ -213,7 +214,8 @@ p {
     .blog-section-title,
     .store-section-title,
     .about-section-title,
-    .contact-section-title {
+    .contact-section-title,
+    .login-section-title {
         font-size: 32px;
     }
 }

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/bootstrap-icons.svg">
+
+    <!-- common css -->
+    <link rel="stylesheet" href="assets/css/common.css">
+
+    <!-- login css -->
+    <link rel="stylesheet" href="assets/css/login.css">
+
+    <title>theshahul - Login</title>
+</head>
+
+<body>
+
+    <div class="section-wrap p-md-5 p-4 d-flex justify-content-center">
+        <div class="section-container login-section-container">
+            <div class="section-title-wrap login-section-title-wrap">
+                <h3 class="section-title login-section-title">Let's Login</h3>
+                <p>Hello theshahul ! Welcome back</p>
+            </div>
+            <div class="login-register-section-body">
+                <form action="" id="form">
+                    <div class="row g-3">
+                        <div class="col-12">
+                            <input type="email" class="form-control" placeholder="Email" aria-label="Email" id="email">
+                            <p class="text-danger error" id="emailError"></p>
+                        </div>
+                        <div class="col-12">
+                            <input type="password" class="form-control" placeholder="Password" aria-label="Password"
+                                id="password">
+                            <p class="text-danger error" id="passwordError"></p>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn send-msg" type="submit">Login</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/javascript/form-validation.js"></script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
