@@ -1,6 +1,6 @@
 @import url(./common.css);
 
-.login-section-container {
+.login-register-section-container {
     max-width: 500px;
 }
 
@@ -12,25 +12,25 @@
     border: none;
 }
 
-.login-section-title-wrap {
+.login-register-section-title-wrap {
     margin-bottom: 40px;
     display: flex;
     gap: 30px;
     flex-direction: column;
 }
 
-.login-section-title-wrap>p {
+.login-register-section-title-wrap>p {
     color: var(--secomdary-text-color);
     font-size: var(--font-size-16);
     font-weight: var(--font-weight-300);
 }
 
-.login-section-title-wrap a {
+.login-register-section-title-wrap a {
     text-decoration: none;
     color: var(--primary-text-color);
 }
 
-.login-section-title-wrap a:hover {
+.login-register-section-title-wrap a:hover {
     color: var(--hover-yellow);
 }
 

@@ -19,7 +19,7 @@
     <!-- login css -->
     <link rel="stylesheet" href="assets/css/login-register.css">
 
-    <title>theshahul - Login</title>
+    <title>theshahul - Register</title>
 </head>
 
 <body>
@@ -27,11 +27,11 @@
     <div class="section-wrap p-md-5 p-4 d-flex justify-content-center">
         <div class="section-container login-register-section-container">
             <div class="section-title-wrap login-register-section-title-wrap">
-                <h3 class="section-title login-register-section-title">Let's Login</h3>
-                <p>Hello theshahul ! Welcome back</p>
+                <h3 class="section-title login-register-section-title">Let's Register</h3>
+                <p>Hello ! Welcome back</p>
             </div>
             <div class="login-register-section-body">
-                <form action="" id="login">
+                <form action="" id="register">
                     <div class="row g-3">
                         <div class="col-12">
                             <input type="email" class="form-control" placeholder="Email" aria-label="Email" id="email">
@@ -43,7 +43,12 @@
                             <p class="text-danger error" id="passwordError"></p>
                         </div>
                         <div class="col-12">
-                            <button class="btn send-msg" type="submit">Login</button>
+                            <input type="password" class="form-control" placeholder="Re enter password"
+                                aria-label="Password" id="rePassword">
+                            <p class="text-danger error" id="rePasswordError"></p>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn send-msg" type="submit">Register</button>
                         </div>
                     </div>
                 </form>
@@ -51,7 +56,7 @@
         </div>
     </div>
 
-    <script src="assets/javascript/login.js"></script>
+    <script src="assets/javascript/register.js"></script>
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
